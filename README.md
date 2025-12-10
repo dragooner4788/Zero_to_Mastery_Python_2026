@@ -50,6 +50,7 @@ A well-documented example demonstrating:
 - Setter methods with type checking
 - User input collection with validation loops
 
+```python
 class Person:
     """
     A class representing a person with basic attributes and validation.
@@ -76,6 +77,7 @@ class Person:
         if age < 0:
             raise ValueError("Age cannot be negative")
         self.age = age
+```
 
 # 🎓 Learning Philosophy
 
